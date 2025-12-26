@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学成在线</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navi-bar">
+    <div class="navi-bar-content">
+        <div class="img-container">
+            <img src="./imgs/images/logo.png" alt="" class="logo">
+        </div>
+        <div class="navi">
+            <a href="#">首页</a>
+            <a href="#">课程</a>
+            <a href="#">职业规划</a>
+        </div>
+        <label class="search-bar">
+            <input type="text" placeholder="请输入关键词">
+            <a href="#">
+                <img src="./imgs/images/search.png" alt="">
+            </a>
+        </label>
+        <div class="user">
+            <img src="imgs/uploads/user.png" alt="" class="icon">
+            <span id="user_name">播仔学前端</span>
+        </div>
+    </div>
+</nav>
+<div class="banner-area">
+    <div class="banner">
+        <div class="banner-courses">
+            <div class="banner-course"><a href="#">前端开发</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">后端开发</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">移动开发</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">人工智能</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">商业预测</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">云计算&大数据</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">运维&测试</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">UI设计</a><img src="imgs/images/right.png" alt=""></div>
+            <div class="banner-course"><a href="#">产品</a><img src="imgs/images/right.png" alt=""></div>
+        </div>
+        <div class="class-table">
+            <h2 class="table-title">我的课程表</h2>
+            <div class="class-table-content">
+                <div><h2>数据可视化课程</h2>
+                    <span class="color-blue">正在学习</span><span>-echarts使用步骤</span>
+                    <hr>
+                </div>
+                <div><h2>Vue3医疗项目课程 </h2>
+                    <span class="color-blue">正在学习</span><span>-认识组合式API</span>
+                    <hr>
+                </div>
+                <div><h2>React核心技术课程</h2>
+                    <span class="color-blue">正在学习</span><span>-rudex配合TS使用</span>
+                    <hr>
+                </div>
+                <button id="all-classes" onclick="">
+                    全部课程
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-content-area">
+    <div class="course-recommendation-bar">
+        <a class="blue-recommendation-title" href="#">精品推荐</a>
+        <div class="recommendation-items-container">
+            <a href="#" class="recommendation-item">HTML</a>
+            <a href="#" class="recommendation-item">CSS</a>
+            <a href="#" class="recommendation-item">JavaScript</a>
+            <a href="#" class="recommendation-item">Node.js</a>
+            <a href="#" class="recommendation-item">Ajax</a>
+            <a href="#" class="recommendation-item">Vue2.0</a>
+            <a href="#" class="recommendation-item">Vue3.0</a>
+            <a href="#" class="recommendation-item">TypeScript</a>
+            <a href="#" class="recommendation-item">React</a>
+        </div>
+        <a href="#" class="change-interest">修改兴趣</a>
+
+    </div>
+    <div class="recommendation-content-bar">
+        <h2>
+            <span>精品推荐</span>
+            <span><a href="#">查看更多 <img src="imgs/images/more.png" alt=""></a></span>
+        </h2>
+        <div class="recommendation-content-container">
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+            <div class="card-content-item">
+
+            </div>
+        </div>
+    </div>
+    <div class="content-bar">
+        <h2>
+            <span>前端开发工程师</span>
+            <span>
+                <span class="level-sorts">
+                <a href="#">热门</a>
+                <a href="#">初级</a>
+                <a href="#">中级</a>
+                <a href="#">高级</a>
+                </span>
+            </span>
+            <span><a href="#">查看更多 <img src="imgs/images/more.png" alt=""></a></span>
+        </h2>
+    </div>
+    <div class="content-container">
+        <div class="left-post">
+            <img src="./imgs/uploads/web_left.png" alt="">
+        </div>
+        <div class="right-bar">
+            <img src="./imgs/uploads/web_top.png" alt="">
+            <div class="content-cards" id="frontend">
+
+            </div>
+        </div>
+    </div>
+    <div class="content-bar">
+        <h2>
+            <span>Python+大数据开发</span>
+            <span>
+                <span class="level-sorts">
+                <a href="#">热门</a>
+                <a href="#">初级</a>
+                <a href="#">中级</a>
+                <a href="#">高级</a>
+                </span>
+            </span>
+            <span><a href="#">查看更多 <img src="imgs/images/more.png" alt=""></a></span>
+        </h2>
+    </div>
+    <div class="content-container">
+        <div class="left-post">
+            <img src="./imgs/uploads/python_left.png" alt="">
+        </div>
+        <div class="right-bar">
+            <img src="./imgs/uploads/python_top.png" alt="">
+            <div class="content-cards" id="python">
+
+            </div>
+        </div>
+    </div>
+    <div class="content-bar">
+        <h2>
+            <span>人工智能开发</span>
+            <span>
+                <span class="level-sorts">
+                <a href="#">热门</a>
+                <a href="#">初级</a>
+                <a href="#">中级</a>
+                <a href="#">高级</a>
+                </span>
+            </span>
+            <span><a href="#">查看更多 <img src="imgs/images/more.png" alt=""></a></span>
+        </h2>
+    </div>
+    <div class="content-container2" id="ai">
+    </div>
+    <div class="content-bar">
+        <h2>
+            <span>Java</span>
+            <span>
+                <span class="level-sorts">
+                <a href="#">热门</a>
+                <a href="#">初级</a>
+                <a href="#">中级</a>
+                <a href="#">高级</a>
+                </span>
+            </span>
+            <span><a href="#">查看更多 <img src="imgs/images/more.png" alt=""></a></span>
+        </h2>
+    </div>
+    <div class="content-container2" id="java">
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="imgs/images/logo.png" alt="">
+            <div>
+                学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。<br>2017年XTCGInc.保留所有权利。-沪ICP备15025210号
+            </div>
+            <button>
+                下载APP
+            </button>
+        </div>
+        <div class="footer-right">
+            <div class="about">
+                <h3>关于学成网</h3><br>
+                <a href="#">关于</a><br>
+                <a href="#">管理团队</a><br>
+                <a href="#">工作机会</a><br>
+                <a href="#">客户服务</a><br>
+                <a href="#">帮助</a><br>
+            </div>
+            <div class="guide">
+                <h3>新手指南</h3><br>
+                <a href="#">如何注册</a><br>
+                <a href="#">如何选课</a><br>
+                <a href="#">如何拿到毕业证</a><br>
+                <a href="#">学分是什么</a><br>
+                <a href="#">考试未通过怎么办</a><br>
+            </div>
+            <div class="coop">
+                <h3>合作伙伴</h3><br>
+                <a href="#">合作机构</a><br>
+                <a href="#">合作导师</a><br>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="script.js"></script>
+
+</html>
